@@ -1,0 +1,18 @@
+{
+  "name": "user-authentication-system",
+  "version": "1.0.0",
+  "description": "Basic user authentication with secure login, registration, and protected routes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Shivam Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.3"
+  }
+}
